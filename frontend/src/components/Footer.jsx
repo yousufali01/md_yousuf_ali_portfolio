@@ -127,9 +127,9 @@ const Footer = () => {
                 rel="noreferrer"
                 aria-label="Md. Yousuf Ali Facebook Profile"
                 title="Facebook Profile"
-                className="p-3.5 rounded-xl bg-slate-900/90 border border-slate-800 text-slate-300 hover:text-blue-500 hover:border-blue-500/50 hover:bg-slate-800 transition shadow-xs"
+                className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 hover:bg-blue-500 hover:text-black flex items-center justify-center text-slate-300 transition"
               >
-                <FaFacebook className="text-xl" />
+                <FaFacebook className="text-lg" />
               </a>
 
               <a
@@ -138,10 +138,11 @@ const Footer = () => {
                 rel="noreferrer"
                 aria-label="Md. Yousuf Ali Instagram Profile"
                 title="Instagram Profile"
-                className="p-3.5 rounded-xl bg-slate-900/90 border border-slate-800 text-slate-300 hover:text-pink-400 hover:border-pink-500/50 hover:bg-slate-800 transition shadow-xs"
+                className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 hover:bg-pink-500 hover:text-white flex items-center justify-center text-slate-300 transition"
               >
-                <FaInstagram className="text-xl" />
+                <FaInstagram className="text-lg" />
               </a>
+
               <a
                 href={`mailto:${profileData.contact.email}`}
                 aria-label="Send Direct Email"

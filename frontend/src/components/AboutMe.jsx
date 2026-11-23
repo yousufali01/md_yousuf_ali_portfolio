@@ -190,7 +190,7 @@ const AboutMe = () => {
           <div className="flex flex-wrap items-center gap-4 pt-4">
             <a
               href={profileData.contact.resumePdfUrl}
-              download="Md_Yousuf_Ali_Resume.pdf"
+              download="Md_Yousuf_Ali_Resume_Updated.pdf"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white px-6 py-3 rounded-xl font-semibold shadow-md shadow-cyan-500/20 transition-all duration-300 cursor-pointer"
             >
               <HiDownload className="text-lg" />

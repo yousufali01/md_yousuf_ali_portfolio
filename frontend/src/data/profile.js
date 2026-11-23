@@ -70,18 +70,18 @@ export const profileData = {
     location: "Uttara, Dhaka, Bangladesh",
     github: "https://github.com/yousufali01",
     githubVerified: true,
-    linkedin: "https://www.linkedin.com/in/md-yousuf-ali-b8a7332a1/",
+    linkedin: "https://www.linkedin.com/in/mdyousufali01",
     linkedinVerified: true,
     portfolio: "https://mdyousufaliportfolio.vercel.app/",
     facebook: "https://www.facebook.com/md.yousuf.ali.102868",
     instagram: "https://www.instagram.com/yousuf__o__ali?mdxt=MXhwcnhrdHJ3bjRxaA%3D%3D&utm_source=qr",
-    resumePdfUrl: "/Md_Yousuf_Ali_Resume.pdf",
+    resumePdfUrl: "/projects/Md_Yousuf_Ali_Resume_Updated.pdf",
     resumeViewUrl: "/resume"
   },
 
   resumeSkills: {
     programmingLanguages: "C, C++, Java, Python, JavaScript (ES6+), TypeScript, SQL",
-    frontend: "HTML5, CSS3, React.js, Next.js, Tailwind CSS, DaisyUI, shadcn/ui",
+    frontend: "HTML5, CSS3, React.js, Next.js, Tailwind CSS, Bootstrap, DaisyUI, Shadcn/UI",
     backend: "Node.js, Express.js, REST API development, Better Auth, JWT",
     database: "MongoDB, Mongoose, MySQL",
     tools: "Git, GitHub, VS Code, Postman, Vercel, Netlify"
@@ -95,8 +95,8 @@ export const profileData = {
 
   resumeExtraCurricular: {
     title: "Champion & Best Idea Award",
-    event: "UIU Hack Day 2026, Category 1; Team 405 Found",
-    description: "Collaborated on a Universal Sign Language web application concept."
+    event: "UIU Hack Day 2026, Category 1 | Team 405 Found",
+    description: "Collaborated with a team to develop an innovative Universal Sign Language web application concept, earning both the Best Idea Award and Champion title."
   },
 
   resumeLanguages: [

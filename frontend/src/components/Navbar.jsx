@@ -118,13 +118,14 @@ const Navbar = () => {
             <FaGithub className="text-lg" />
           </a>
 
-          <Link
-            to="/resume"
+          <a
+            href={profileData.contact.resumePdfUrl}
+            download="Md_Yousuf_Ali_Resume_Updated.pdf"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-blue-500 text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-md shadow-cyan-500/20 hover:shadow-cyan-500/30 transition-all duration-300 transform hover:-translate-y-0.5"
           >
             <HiDocumentText className="text-lg" />
             <span>Resume</span>
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -168,14 +169,15 @@ const Navbar = () => {
 
           {/* Mobile Resume and GitHub CTAs */}
           <li className="pt-3 border-t border-slate-800/80 flex flex-col sm:flex-row gap-3">
-            <Link
-              to="/resume"
+            <a
+              href={profileData.contact.resumePdfUrl}
+              download="Md_Yousuf_Ali_Resume_Updated.pdf"
               onClick={closeMenu}
               className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white py-2.5 rounded-xl text-sm font-semibold shadow-md transition"
             >
               <HiDocumentText className="text-lg" />
               <span>View Full Resume</span>
-            </Link>
+            </a>
 
             <a
               href={profileData.contact.github}

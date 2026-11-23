@@ -211,7 +211,7 @@ const Education = () => {
               </p>
               <a
                 href={profileData.contact.resumePdfUrl}
-                download="Md_Yousuf_Ali_Resume.pdf"
+                download="Md_Yousuf_Ali_Resume_Updated.pdf"
                 className="inline-block bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs px-4 py-2 rounded-xl transition shadow-sm"
               >
                 Download Resume (PDF) &darr;

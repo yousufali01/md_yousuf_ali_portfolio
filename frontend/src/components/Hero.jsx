@@ -105,7 +105,7 @@ const Hero = () => {
             {/* CTA 2: Download Resume PDF */}
             <a
               href={profileData.contact.resumePdfUrl}
-              download="Md_Yousuf_Ali_Resume.pdf"
+              download="Md_Yousuf_Ali_Resume_Updated.pdf"
               className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white border border-cyan-500/40 hover:border-cyan-400 px-6 py-3.5 rounded-xl font-bold shadow-md transition-all duration-300 text-sm sm:text-base group cursor-pointer"
             >
               <HiDownload className="text-lg text-cyan-400 group-hover:translate-y-0.5 transition-transform" />
@@ -278,7 +278,7 @@ const Hero = () => {
               </span>
               <a
                 href={profileData.contact.resumePdfUrl}
-                download="Md_Yousuf_Ali_Resume.pdf"
+                download="Md_Yousuf_Ali_Resume_Updated.pdf"
                 className="text-cyan-400 hover:underline font-medium"
               >
                 Resume PDF &darr;

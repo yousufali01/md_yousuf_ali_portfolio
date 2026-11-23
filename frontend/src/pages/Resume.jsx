@@ -27,7 +27,8 @@ const Resume = () => {
       title: "1. WedPlan — Wedding Planning & Vendor Management Platform",
       description:
         "A full-stack wedding planning platform that helps couples explore services, view vendor portfolios, and manage bookings.",
-      techStack: "React.js, Node.js, Express.js, MongoDB, Tailwind CSS, REST API, JWT",
+      techStack:
+        "Next.js, React.js, TypeScript, Tailwind CSS, shadcn/ui, Node.js, Express.js, MongoDB, Better Auth, Stripe, REST API",
       live: "https://wedplan-client-rho.vercel.app/",
       client: "https://github.com/yousufali01/WedPlan_Client",
       server: "https://github.com/yousufali01/WedPlan_Server",
@@ -43,7 +44,8 @@ const Resume = () => {
       title: "2. BookNook — Online Library Management Platform",
       description:
         "A full-stack library platform that helps readers explore books, view book information and manage borrowing activity.",
-      techStack: "Next.js, TypeScript, Express.js, MongoDB, Better Auth/JWT",
+      techStack:
+        "Next.js, React.js, TypeScript, Node.js, Express.js, MongoDB, Better Auth, JWT, REST API",
       live: "https://booknook-client-psi.vercel.app/",
       client: "https://github.com/yousufali01/BookNook-Client",
       server: "https://github.com/yousufali01/BookNook-Server",
@@ -58,7 +60,8 @@ const Resume = () => {
       title: "3. Bazar-Dor — E-commerce Web Application",
       description:
         "An e-commerce application featuring category-based product discovery and API-driven product listings.",
-      techStack: "Next.js, JavaScript/TypeScript, Tailwind CSS, REST API",
+      techStack:
+        "Next.js, React.js, TypeScript, Tailwind CSS, DaisyUI, Better Auth, MongoDB, REST API",
       live: "https://bazar-dor-three-xi.vercel.app/",
       github: "https://github.com/yousufali01/Bazar-Dor",
       bullets: [
@@ -83,7 +86,7 @@ const Resume = () => {
           {/* Download Original PDF Button */}
           <a
             href={profileData.contact.resumePdfUrl}
-            download="Md_Yousuf_Ali_Resume.pdf"
+            download="Md_Yousuf_Ali_Resume_Updated.pdf"
             className="inline-flex items-center gap-2 text-sm font-bold text-slate-200 bg-slate-900 hover:bg-slate-800 border border-cyan-500/50 hover:border-cyan-400 px-5 py-2.5 rounded-xl shadow-md transition-all cursor-pointer"
           >
             <HiDownload className="text-lg text-cyan-400" />
@@ -365,7 +368,7 @@ const Resume = () => {
           </p>
           <a
             href={profileData.contact.resumePdfUrl}
-            download="Md_Yousuf_Ali_Resume.pdf"
+            download="Md_Yousuf_Ali_Resume_Updated.pdf"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold px-6 py-2.5 rounded-xl text-sm transition shadow-lg shadow-cyan-500/20"
           >
             <HiDownload className="text-lg" />

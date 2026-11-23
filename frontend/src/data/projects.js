@@ -152,6 +152,53 @@ export const projects = [
     ]
   },
   {
+    id: 7,
+    slug: "booknook",
+    title: "BookNook — Online Library Management Platform",
+    subtitle: "Full-Stack Library Management Platform for Readers & Book Borrowing",
+    category: "Full-Stack Web Application",
+    featured: true,
+    image: wedplanImg, // Fallback preview
+    live: "https://booknook-client-psi.vercel.app/",
+    liveVerified: true,
+    github: "https://github.com/yousufali01/BookNook-Client",
+    githubClient: "https://github.com/yousufali01/BookNook-Client",
+    githubServer: "https://github.com/yousufali01/BookNook-Server",
+    githubVerified: true,
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Express.js",
+      "MongoDB",
+      "Better Auth",
+      "JWT",
+      "Tailwind CSS",
+      "Vercel"
+    ],
+    purpose:
+      "A full-stack library platform that helps readers explore books, view book information, and manage personal borrowing records.",
+    targetUsers:
+      "Book readers, students, educators, and library administrators seeking a structured digital book catalog and borrowing system.",
+    description:
+      "BookNook is a full-stack online library management web application designed to help readers explore books, browse categorized literary works, and manage borrowing records seamlessly. Built with Next.js, TypeScript, Express.js, and MongoDB, it features user authentication, borrowing activity tracking, and complete CRUD management for cataloged books.",
+    keyFeatures: [
+      "Browse the book collection and view individual book details",
+      "Register and sign in to access authenticated features and personal borrowing logs",
+      "Borrow books and review personal borrowing records",
+      "Manage book records through create, update and delete operations"
+    ],
+    challenges: [
+      "Implementing role-based authentication and secure session tokens with Better Auth and JWT",
+      "Ensuring atomic updates to book inventory counts when books are borrowed or returned",
+      "Designing an intuitive responsive catalog interface with fast client-side filtering"
+    ],
+    future: [
+      "Automated email notifications for upcoming book return due dates",
+      "Community reader reviews and five-star rating systems",
+      "Barcode / ISBN scanner integration for rapid book cataloging"
+    ]
+  },
+  {
     id: 2,
     slug: "bazar-dor",
     title: "Bazar-Dor",

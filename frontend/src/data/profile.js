@@ -6,13 +6,13 @@ import profilePhoto from "../assets/yousuf-ali.jpg";
 export const profileData = {
   fullName: "Md. Yousuf Ali",
   preferredName: "Yousuf",
-  designation: "Full-Stack Web Developer",
+  designation: "Junior Full-Stack Web Developer",
   statusBadge: "Available for Hire • Junior Full-Stack Roles & Internships",
   profilePhoto: profilePhoto,
 
   currentInstitution: "United International University (UIU), Dhaka, Bangladesh",
-  currentDegree: "Bachelor of Science in Computer Science and Engineering (CSE)",
-  currentStatus: "2nd Year 6th Trimester (Currently Studying)",
+  currentDegree: "B.Sc. in Computer Science & Engineering",
+  currentStatus: "2025 – Present",
 
   diplomaQualification: "Diploma in Engineering in Computer Technology",
   diplomaInstitution: "Shyamoli Ideal Polytechnic Institute",
@@ -29,10 +29,10 @@ export const profileData = {
   },
 
   headline:
-    "CSE Student @ UIU | Full-Stack Web Developer | React.js • Next.js • Node.js • TypeScript • MongoDB | Building Modern Web Applications & Cybersecurity Enthusiast",
+    "CSE Student @ UIU | Junior Full-Stack Web Developer | React.js • Next.js • Node.js • TypeScript • Express.js • MongoDB",
 
   summary:
-    "I am a Computer Science and Engineering student at United International University with a strong interest in full-stack web development. I enjoy creating modern, responsive, and user-friendly web applications using contemporary technologies. I continuously work on practical projects, improve my programming fundamentals, explore new tools, and develop my problem-solving skills. I am interested in building useful digital products, writing maintainable code, collaborating with other developers, and learning more about cybersecurity and secure web development.",
+    "Computer Science and Engineering student at United International University with a strong foundation in full-stack web development. Skilled in React.js, Next.js, JavaScript, TypeScript, Node.js, Express.js, MongoDB, and MySQL. Seeking an entry-level opportunity to apply my technical expertise, contribute to real-world projects, and grow as a software engineer.",
 
   aboutNarrative: [
     "I am Md. Yousuf Ali, an aspiring software engineer currently pursuing my Bachelor of Science in Computer Science and Engineering (2nd Year 6th Trimester) at United International University (UIU), Dhaka. My technical foundation took root in a comprehensive 4-year Diploma in Engineering in Computer Technology at Shyamoli Ideal Polytechnic Institute (graduating with a 3.48 / 4.00 GPA in 2024).",
@@ -62,21 +62,47 @@ export const profileData = {
   contact: {
     email: "yousufali.ya01@gmail.com",
     emailVerified: true,
-    phone: "+880 1724352297",
-    phoneDisplay: "01724352297",
+    phone: "+880 1724 352297",
+    phoneDisplay: "+880 1724 352297",
     phoneVerified: true,
     whatsapp: "https://wa.me/8801724352297",
     whatsappVerified: true,
-    location: "Dhaka, Bangladesh",
+    location: "Uttara, Dhaka, Bangladesh",
     github: "https://github.com/yousufali01",
     githubVerified: true,
-    linkedin: "https://www.linkedin.com/in/mdyousufali01/",
-    linkedinVerified: false,
+    linkedin: "https://www.linkedin.com/in/md-yousuf-ali-b8a7332a1/",
+    linkedinVerified: true,
+    portfolio: "https://mdyousufaliportfolio.vercel.app/",
     facebook: "https://www.facebook.com/md.yousuf.ali.102868",
     instagram: "https://www.instagram.com/yousuf__o__ali?mdxt=MXhwcnhrdHJ3bjRxaA%3D%3D&utm_source=qr",
     resumePdfUrl: "/Md_Yousuf_Ali_Resume.pdf",
     resumeViewUrl: "/resume"
   },
+
+  resumeSkills: {
+    programmingLanguages: "C, C++, Java, Python, JavaScript (ES6+), TypeScript, SQL",
+    frontend: "HTML5, CSS3, React.js, Next.js, Tailwind CSS, DaisyUI, shadcn/ui",
+    backend: "Node.js, Express.js, REST API development, Better Auth, JWT",
+    database: "MongoDB, Mongoose, MySQL",
+    tools: "Git, GitHub, VS Code, Postman, Vercel, Netlify"
+  },
+
+  resumeEducation: {
+    degree: "B.Sc. in Computer Science & Engineering",
+    institution: "United International University",
+    duration: "2025 – Present"
+  },
+
+  resumeExtraCurricular: {
+    title: "Champion & Best Idea Award",
+    event: "UIU Hack Day 2026, Category 1; Team 405 Found",
+    description: "Collaborated on a Universal Sign Language web application concept."
+  },
+
+  resumeLanguages: [
+    { name: "Bangla", proficiency: "Native" },
+    { name: "English", proficiency: "Basic" }
+  ],
 
   achievements: [
     {

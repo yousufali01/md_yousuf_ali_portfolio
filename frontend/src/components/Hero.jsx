@@ -106,9 +106,7 @@ const Hero = () => {
             <a
               href={profileData.contact.resumePdfUrl}
               download="Md_Yousuf_Ali_Resume.pdf"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white border border-cyan-500/40 hover:border-cyan-400 px-6 py-3.5 rounded-xl font-bold shadow-md transition-all duration-300 text-sm sm:text-base group"
+              className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white border border-cyan-500/40 hover:border-cyan-400 px-6 py-3.5 rounded-xl font-bold shadow-md transition-all duration-300 text-sm sm:text-base group cursor-pointer"
             >
               <HiDownload className="text-lg text-cyan-400 group-hover:translate-y-0.5 transition-transform" />
               <span>Download Resume</span>

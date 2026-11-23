@@ -162,17 +162,42 @@ const ProjectDetails = () => {
               </a>
             )}
 
-            {project.github && (
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700 hover:border-cyan-500/50 px-6 py-3 rounded-xl font-semibold shadow-sm transition"
-              >
-                <FaGithub className="text-lg" />
-                <span>GitHub Repository</span>
-                <HiExternalLink className="text-sm text-slate-400" />
-              </a>
+            {project.githubServer ? (
+              <>
+                <a
+                  href={project.githubClient || project.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700 hover:border-cyan-500/50 px-6 py-3 rounded-xl font-semibold shadow-sm transition"
+                >
+                  <FaGithub className="text-lg text-cyan-400" />
+                  <span>GitHub (Frontend Client)</span>
+                  <HiExternalLink className="text-sm text-slate-400" />
+                </a>
+                <a
+                  href={project.githubServer}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700 hover:border-cyan-500/50 px-6 py-3 rounded-xl font-semibold shadow-sm transition"
+                >
+                  <FaGithub className="text-lg text-cyan-400" />
+                  <span>GitHub (Backend Server)</span>
+                  <HiExternalLink className="text-sm text-slate-400" />
+                </a>
+              </>
+            ) : (
+              project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700 hover:border-cyan-500/50 px-6 py-3 rounded-xl font-semibold shadow-sm transition"
+                >
+                  <FaGithub className="text-lg" />
+                  <span>GitHub Repository</span>
+                  <HiExternalLink className="text-sm text-slate-400" />
+                </a>
+              )
             )}
 
             {!project.liveVerified && (

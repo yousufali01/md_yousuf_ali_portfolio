@@ -122,17 +122,44 @@ const Projects = () => {
                 </Link>
 
                 <div className="flex items-center gap-2">
-                  {project.github && (
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label={`${project.title} Source Code`}
-                      title={project.githubVerified ? "Verified GitHub Repository" : "Configurable Repository Candidate"}
-                      className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition"
-                    >
-                      <FaGithub className="text-lg" />
-                    </a>
+                  {project.githubServer ? (
+                    <div className="flex items-center gap-1.5">
+                      <a
+                        href={project.githubClient || project.github}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`${project.title} Client Repository`}
+                        title="Client Repository (Frontend)"
+                        className="px-2 py-1 text-[11px] font-mono font-medium text-slate-300 hover:text-white bg-slate-900 hover:bg-slate-800 rounded-lg transition flex items-center gap-1 border border-slate-700/80 hover:border-cyan-500/50"
+                      >
+                        <FaGithub className="text-xs text-cyan-400" />
+                        <span>Client</span>
+                      </a>
+                      <a
+                        href={project.githubServer}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`${project.title} Server Repository`}
+                        title="Server Repository (Backend)"
+                        className="px-2 py-1 text-[11px] font-mono font-medium text-slate-300 hover:text-white bg-slate-900 hover:bg-slate-800 rounded-lg transition flex items-center gap-1 border border-slate-700/80 hover:border-cyan-500/50"
+                      >
+                        <FaGithub className="text-xs text-cyan-400" />
+                        <span>Server</span>
+                      </a>
+                    </div>
+                  ) : (
+                    project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`${project.title} Source Code`}
+                        title={project.githubVerified ? "Verified GitHub Repository" : "Configurable Repository Candidate"}
+                        className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition"
+                      >
+                        <FaGithub className="text-lg" />
+                      </a>
+                    )
                   )}
 
                   {project.live && (

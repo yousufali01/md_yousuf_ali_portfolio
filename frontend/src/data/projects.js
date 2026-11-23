@@ -2,6 +2,8 @@ import silentTalkImg from "../assets/projects/silent-talk.png";
 import bazarDorImg from "../assets/projects/bazar-dor.svg";
 import fitlogImg from "../assets/projects/fitlog.svg";
 import banglaNews24Img from "../assets/projects/bangla-news-24.png";
+import wedplanImg from "../assets/projects/wedplan.png";
+import sinoverseImg from "../assets/projects/sinoverse.png";
 
 export const projects = [
   {
@@ -52,6 +54,101 @@ export const projects = [
       "Computer-vision sign language gesture detection using webcam and MediaPipe hands",
       "Offline progressive web app (PWA) caching for critical emergency use in network dead-zones",
       "Multi-language and local Bangla sign dialect expansion with localized voice models"
+    ]
+  },
+  {
+    id: 5,
+    slug: "wedplan",
+    title: "WedPlan — Complete Wedding Planning & Vendor Management Platform",
+    subtitle: "Full-Stack Wedding Event Planning, Vendor Directory & Service Booking System",
+    category: "Full-Stack Web Application (MERN)",
+    featured: true,
+    image: wedplanImg,
+    live: "https://wedplan-client-rho.vercel.app/",
+    liveVerified: true,
+    github: "https://github.com/yousufali01/WedPlan_Client",
+    githubClient: "https://github.com/yousufali01/WedPlan_Client",
+    githubServer: "https://github.com/yousufali01/WedPlan_Server",
+    githubVerified: true,
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "RESTful API",
+      "JWT Authentication",
+      "Vercel"
+    ],
+    purpose:
+      "Simplifies wedding event planning and vendor hiring by connecting couples with trusted photographers, venues, caterers, and decor specialists through an end-to-end booking ecosystem.",
+    targetUsers:
+      "Engaged couples, wedding event coordinators, banquet hall managers, photographers, and independent event service providers.",
+    description:
+      "WedPlan is a production-ready, full-stack wedding planning and vendor booking platform engineered with a decoupled frontend client and a scalable backend server. The platform empowers couples to explore curated wedding service categories, inspect vendor portfolios, review pricing packages, and initiate bookings. It features a comprehensive administrative control panel allowing event operators to oversee vendor catalogs, manage service categories, and handle customer bookings.",
+    keyFeatures: [
+      "Comprehensive Wedding Services Directory across Venues, Photography, Catering, Decoration, and Bridal Styling",
+      "Full-Stack Decoupled Architecture with dedicated React client on Vercel and Express/MongoDB backend API",
+      "Integrated Administrative Dashboard for curating vendor listings, categorizing packages, and managing inquiries",
+      "Luxury Aesthetic UI/UX designed with responsive dark emerald styling, smooth interactions, and golden accents",
+      "Secure Client-Server Communication with RESTful endpoints and authenticated administration workflows",
+      "Curated 'How It Works' & Testimonials pipeline providing social proof and guidance for couples"
+    ],
+    challenges: [
+      "Architecting a clean client-server data flow separating consumer booking interfaces from administrative management operations",
+      "Designing a high-conversion luxury visual theme optimized for media-heavy photography portfolios without layout shifts",
+      "Structuring modular RESTful API endpoints for flexible category and service filtering"
+    ],
+    future: [
+      "Interactive wedding budget estimator and guest RSVP tracker",
+      "Direct vendor messaging and appointment scheduling calendar",
+      "Integrated online payment gateway processing (SSLCommerz / Stripe)"
+    ]
+  },
+  {
+    id: 6,
+    slug: "sinoverse",
+    title: "SinoVerse BD — Direct Import Chinese Gadgets & E-Commerce Platform",
+    subtitle: "Direct-from-Factory Chinese Problem-Solving Gadgets Marketplace with Admin Dashboard",
+    category: "E-Commerce & Digital Commerce",
+    featured: true,
+    image: sinoverseImg,
+    live: "https://statuesque-axolotl-bc3cd5.netlify.app/",
+    liveVerified: true,
+    github: "https://github.com/yousufali01/SinoVerse-BD",
+    githubVerified: true,
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "JavaScript (ES6+)",
+      "Context API",
+      "REST API",
+      "Responsive Design",
+      "Netlify"
+    ],
+    purpose:
+      "Bridges Bangladeshi consumers directly with authentic factory-sourced Chinese problem-solving smart gadgets, eliminating middlemen markup with cash-on-delivery convenience.",
+    targetUsers:
+      "Bangladeshi consumers, tech enthusiasts, gadget shoppers, and smart lifestyle device adopters seeking affordable problem-solving utilities.",
+    description:
+      "SinoVerse BD is a modern Bangladeshi digital commerce platform focused on 100% authentic, direct-import Chinese problem-solving gadgets and lifestyle electronics. Tailored for Bangladeshi online buyers, it features native Bangla typography, curated product collections, shopping cart management, nationwide Cash on Delivery assurances, 7-day replacement guarantees, and an administrative view dashboard for catalog monitoring.",
+    keyFeatures: [
+      "Curated Problem-Solving Gadgets Showcase directly imported from Chinese manufacturing hubs",
+      "Integrated Admin View Dashboard for monitoring product collections and catalog status",
+      "Localized Bangla E-Commerce Experience with nationwide Cash on Delivery and 24/7 customer support trust badges",
+      "Trending Imports Carousel highlighting top running unique gadget utilities",
+      "Interactive Shopping Cart with real-time item counter, pricing summation, and direct checkout actions",
+      "High-Performance Netlify Cloud Deployment ensuring instant page response times across mobile networks"
+    ],
+    challenges: [
+      "Developing a culturally resonant e-commerce interface with clear Bangla typographic hierarchy and trust indicators",
+      "Managing seamless shopping cart states and fast client-side navigation without performance bottlenecks",
+      "Ensuring robust mobile-first responsive layouts for dense product catalogs on varying screen sizes"
+    ],
+    future: [
+      "Direct Pathao / Steadfast courier delivery API integration for automated order shipment tracking",
+      "bKash & Nagad instant mobile financial service (MFS) payment gateway integration",
+      "Automated supplier stock synchronization and inventory shortage alerts"
     ]
   },
   {

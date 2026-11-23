@@ -325,13 +325,26 @@ const Resume = () => {
                         Live Demo <HiExternalLink />
                       </a>
                     )}
-                    {proj.github && (
+                    {proj.githubServer ? (
                       <>
                         <span>•</span>
-                        <a href={proj.github} target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-0.5">
-                          GitHub <HiExternalLink />
+                        <a href={proj.githubClient || proj.github} target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-0.5">
+                          GitHub (Client) <HiExternalLink />
+                        </a>
+                        <span>•</span>
+                        <a href={proj.githubServer} target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-0.5">
+                          GitHub (Server) <HiExternalLink />
                         </a>
                       </>
+                    ) : (
+                      proj.github && (
+                        <>
+                          <span>•</span>
+                          <a href={proj.github} target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-0.5">
+                            GitHub <HiExternalLink />
+                          </a>
+                        </>
+                      )
                     )}
                   </div>
                 </div>
